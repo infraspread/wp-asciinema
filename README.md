@@ -1,5 +1,7 @@
 # WP Asciinema
 
+Updated to 3.7.0
+
 This is a WordPress plugin to host Asciicasts created with [Asciinema](https://asciinema.org) from your WordPress site.
 
 Note: If you are simply wanting to show Asciicasts directly from Asciinema.org then you don't need this plugin. There are numerous ways to embed Asciicasts on the [Sharing and Embedding](https://asciinema.org/docs/embedding) page.
