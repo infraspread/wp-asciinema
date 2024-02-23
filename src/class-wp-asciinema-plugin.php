@@ -29,6 +29,16 @@ class WP_Asciinema_Plugin {
 	}
 
 	/**
+	 * Registers shortcodes used by this plugin
+	 */
+	private function register_shortcodes() {
+		if ( is_admin() ) {
+			WP_Asciinema_Shortcode_Asciinema::register();
+		}
+	}
+
+
+	/**
 	 * Returns the plugin folder for the given type
 	 *
 	 * @param string $type url|path
